@@ -3,34 +3,70 @@ import { Fraction } from 'fractional';
 console.log(Fraction);
 
 class RecipeView {
-    #parentElement = document.querySelector('.recipe');
-    #data;
+  #parentElement = document.querySelector('.recipe');
+  #data;
+  #errorMessage = 'We couldn\'t find that recipe. Please try another one!';
+  #message = '';
 
-    render(data) {
-        this.#data = data;
-        const markup = this.#generateMarkup();
-        this.#clear();
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
+  render(data) {
+    this.#data = data;
+    const markup = this.#generateMarkup();
+    this.#clear();
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
 
-    #clear() {
-        this.#parentElement.innerHTML = '';
-    }
+  #clear() {
+    this.#parentElement.innerHTML = '';
+  }
 
-    renderSpinner = function () {
-        const markup = `
+  renderSpinner() {
+    const markup = `
               <div class="spinner">
                 <svg>
                   <use href="${icons}#icon-loader"></use>
                 </svg>
               </div>`;
 
-        this.#parentElement.innerHTML = '';
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
+    this.#clear();
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
 
-    #generateMarkup() {
-        return `
+  renderError(message = this.#errorMessage) {
+    const markup = `
+      <div class="error">
+        <div>
+          <svg>
+            <use href="${icons}#icon-alert-triangle"></use>
+          </svg>
+        </div>
+        <p>${message}</p>
+      </div>`;
+
+    this.#clear();
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
+
+  renderMessage(message = this.#message) {
+    const markup = `
+      <div class="message">
+        <div>
+          <svg>
+            <use href="${icons}#icon-smile"></use>
+          </svg>
+        </div>
+        <p>${message}</p>
+      </div>`;
+
+    this.#clear();
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+  }
+
+  addHandlerRender(handler) {
+    ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
+  }
+
+  #generateMarkup() {
+    return `
         <figure class="recipe__fig">
           <img src="${this.#data.image}" alt="${this.#data.title}" class="recipe__img" />
           <h1 class="recipe__title">
@@ -83,7 +119,7 @@ class RecipeView {
           <h2 class="heading--2">Recipe ingredients</h2>
           <ul class="recipe__ingredient-list">
             ${this.#data.ingredients.map(ing => this.#generateMarkupIngredients(ing))
-                .join('')}
+        .join('')}
           </ul>
         </div>
 
@@ -105,10 +141,10 @@ class RecipeView {
             </svg>
           </a>
         </div>`;
-    }
+  }
 
-    #generateMarkupIngredients(ing) {
-        return `
+  #generateMarkupIngredients(ing) {
+    return `
             <li class="recipe__ingredient">
                 <svg class="recipe__icon">
                 <use href="${icons}#icon-check"></use>
@@ -119,7 +155,7 @@ class RecipeView {
                 ${ing.description}
                 </div>
             </li>`;
-    }
+  }
 }
 
 export default new RecipeView();
