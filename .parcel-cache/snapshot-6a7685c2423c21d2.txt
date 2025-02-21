@@ -8,9 +8,9 @@
 43/home/chinmay/repos/forkify/src/js/model.js1740114912267342147 0
 58/home/chinmay/repos/forkify/src/js/views/paginationView.js1740055873563174460 0
 54/home/chinmay/repos/forkify/src/js/views/searchView.js1740044271654950271 0
-48/home/chinmay/repos/forkify/src/js/views/View.js1740055876423174876 0
+48/home/chinmay/repos/forkify/src/js/views/View.js1740130535410350965 0
 40/home/chinmay/repos/forkify/src/js/views1740051560023180900 1
-48/home/chinmay/repos/forkify/src/js/controller.js1740115850207350966 0
+48/home/chinmay/repos/forkify/src/js/controller.js1740130496420351948 0
 44/home/chinmay/repos/forkify/src/img/logo.png1644221921000000000 0
 39/home/chinmay/repos/forkify/.prettierrc1644221921000000000 0
 73/home/chinmay/repos/forkify/node_modules/@mischnic/json-sourcemap/LICENSE1739950452552744606 0
@@ -83,7 +83,7 @@
 97/home/chinmay/repos/forkify/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/CHANGES1739950451802744449 0
 98/home/chinmay/repos/forkify/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mtest2.c1739950452862744672 0
 96/home/chinmay/repos/forkify/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/lmdb.h1739950452872744674 0
-55/home/chinmay/repos/forkify/src/js/views/resultsView.js1740055866493173181 0
+55/home/chinmay/repos/forkify/src/js/views/resultsView.js1740130284560346711 0
 99/home/chinmay/repos/forkify/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/intro.doc1739950452872744674 0
 89/home/chinmay/repos/forkify/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb1739950452902744680 1
 71/home/chinmay/repos/forkify/node_modules/lmdb/dependencies/lmdb-data-v11739950451802744449 1
@@ -2188,7 +2188,7 @@
 96/home/chinmay/repos/forkify/node_modules/core-js/features/object/get-own-property-descriptors.js1739957220752725425 0
 75/home/chinmay/repos/forkify/node_modules/core-js/actual/array/from-async.js1739957220612725398 0
 73/home/chinmay/repos/forkify/node_modules/core-js/features/object/proto.js1739957221872725636 0
-43/home/chinmay/repos/forkify/dist/index.html1740114912797342072 0
+43/home/chinmay/repos/forkify/dist/index.html1740129562800374522 0
 64/home/chinmay/repos/forkify/node_modules/fractional/package.json1739980318592629629 0
 75/home/chinmay/repos/forkify/node_modules/core-js/features/object/entries.js1739957219302725152 0
 92/home/chinmay/repos/forkify/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_dump.11739950451842744457 0
@@ -3459,7 +3459,7 @@
 94/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/features/background-position-x-y.js1739950450442744163 0
 80/home/chinmay/repos/forkify/node_modules/core-js/full/typed-array/to-reversed.js1739957222712725794 0
 81/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/features/web-serial.js1739950451102744302 0
-32/home/chinmay/repos/forkify/dist1740117362637359367 1
+32/home/chinmay/repos/forkify/dist1740130535700350950 1
 74/home/chinmay/repos/forkify/node_modules/core-js/features/instance/find.js1739957220402725359 0
 85/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/features/feature-policy.js1739950450752744228 0
 75/home/chinmay/repos/forkify/node_modules/type-fest/source/set-required.d.ts1739951628572736266 0
@@ -3844,7 +3844,7 @@
 77/home/chinmay/repos/forkify/node_modules/core-js/features/composite-symbol.js1739957218922725080 0
 72/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/regions/IS.js1739950450892744258 0
 69/home/chinmay/repos/forkify/node_modules/type-fest/source/except.d.ts1739951628472736245 0
-51/home/chinmay/repos/forkify/dist/index.f7626f62.css1740114912907342056 0
+51/home/chinmay/repos/forkify/dist/index.f7626f62.css1740129562820374526 0
 72/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/regions/TT.js1739950451062744294 0
 90/home/chinmay/repos/forkify/node_modules/core-js/features/reflect/get-own-metadata-keys.js1739957220712725417 0
 59/home/chinmay/repos/forkify/node_modules/node-releases/data1739950450732744224 1
@@ -3858,7 +3858,7 @@
 76/home/chinmay/repos/forkify/node_modules/type-fest/source/promise-value.d.ts1739951628562736264 0
 77/home/chinmay/repos/forkify/node_modules/core-js/modules/esnext.map.upsert.js1739957219962725276 0
 98/home/chinmay/repos/forkify/node_modules/@parcel/runtime-js/src/helpers/browser/import-polyfill.js1739951628572736266 0
-51/home/chinmay/repos/forkify/dist/icons.21bad73c.svg1740114912827342068 0
+51/home/chinmay/repos/forkify/dist/icons.21bad73c.svg1740129562810374524 0
 88/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/features/createimagebitmap.js1739950450562744189 0
 115/home/chinmay/repos/forkify/node_modules/@parcel/package-manager/test/fixtures/has-a-not-yet-installed/package.json1739950454702745058 0
 70/home/chinmay/repos/forkify/node_modules/core-js/features/math/cbrt.js1739957218882725073 0
@@ -3916,7 +3916,7 @@
 70/home/chinmay/repos/forkify/node_modules/core-js/actual/reflect/has.js1739957220912725455 0
 72/home/chinmay/repos/forkify/node_modules/semver/ranges/min-satisfying.js1739950451852744459 0
 81/home/chinmay/repos/forkify/node_modules/core-js/es/reflect/prevent-extensions.js1739957221812725624 0
-53/home/chinmay/repos/forkify/dist/favicon.8b2f57bf.png1740114912797342072 0
+53/home/chinmay/repos/forkify/dist/favicon.8b2f57bf.png1740129562800374522 0
 76/home/chinmay/repos/forkify/node_modules/@swc/helpers/esm/_inherits_loose.js1739950451262744336 0
 74/home/chinmay/repos/forkify/node_modules/core-js/features/number/is-nan.js1739957221182725506 0
 61/home/chinmay/repos/forkify/node_modules/resolve-from/license1739951628282736205 0
@@ -3947,12 +3947,12 @@
 61/home/chinmay/repos/forkify/node_modules/json5/lib/index.d.ts1739950450062744084 0
 81/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/features/css-resize.js1739950450672744212 0
 78/home/chinmay/repos/forkify/node_modules/electron-to-chromium/full-versions.js1739950450332744140 0
-55/home/chinmay/repos/forkify/dist/index.f7626f62.css.map1740114912907342056 0
+55/home/chinmay/repos/forkify/dist/index.f7626f62.css.map1740129562820374526 0
 58/home/chinmay/repos/forkify/node_modules/is-glob/README.md1739950449972744065 0
 63/home/chinmay/repos/forkify/node_modules/core-js/actual/atob.js1739957218762725050 0
 58/home/chinmay/repos/forkify/node_modules/@lezer/lr/LICENSE1739950451702744428 0
 90/home/chinmay/repos/forkify/node_modules/@swc/helpers/cjs/_possible_constructor_return.cjs1739950451242744331 0
-54/home/chinmay/repos/forkify/dist/index.e37f48ea.js.map1740117362637359367 0
+54/home/chinmay/repos/forkify/dist/index.e37f48ea.js.map1740130535700350950 0
 77/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/features/dialog.js1739950450742744226 0
 72/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/regions/LY.js1739950450932744266 0
 84/home/chinmay/repos/forkify/node_modules/htmlnano/lib/modules/removeOptionalTags.mjs1739951628682736289 0
@@ -4155,7 +4155,7 @@
 78/home/chinmay/repos/forkify/node_modules/htmlnano/lib/modules/mergeScripts.mjs1739951628682736289 0
 98/home/chinmay/repos/forkify/node_modules/@swc/helpers/cjs/_class_static_private_field_spec_set.cjs1739950451222744327 0
 88/home/chinmay/repos/forkify/node_modules/core-js/full/object/get-own-property-symbols.js1739957220752725425 0
-50/home/chinmay/repos/forkify/dist/index.e37f48ea.js1740117362547359418 0
+50/home/chinmay/repos/forkify/dist/index.e37f48ea.js1740130535580350957 0
 79/home/chinmay/repos/forkify/node_modules/@swc/helpers/_/_ts_values/package.json1739950451352744354 0
 78/home/chinmay/repos/forkify/node_modules/core-js/modules/es.string.fontsize.js1739957219712725229 0
 68/home/chinmay/repos/forkify/node_modules/react-error-overlay/LICENSE1739951628172736182 0
@@ -7661,7 +7661,7 @@
 56/home/chinmay/repos/forkify/node_modules/clone/clone.iml1739950452022744495 0
 69/home/chinmay/repos/forkify/node_modules/core-js/proposals/float16.js1739957220522725381 0
 63/home/chinmay/repos/forkify/node_modules/@parcel/types-internal1739950452042744499 1
-50/home/chinmay/repos/forkify/dist/logo.726d37a8.png1740114912767342077 0
+50/home/chinmay/repos/forkify/dist/logo.726d37a8.png1740129562800374522 0
 85/home/chinmay/repos/forkify/node_modules/core-js/internals/object-get-prototype-of.js1739957221722725607 0
 82/home/chinmay/repos/forkify/node_modules/@swc/helpers/_/_class_private_method_init1739950451302744344 1
 80/home/chinmay/repos/forkify/node_modules/core-js/proposals/string-replace-all.js1739957222292725715 0
@@ -8050,7 +8050,7 @@
 66/home/chinmay/repos/forkify/node_modules/core-js/internals/task.js1739957222432725741 0
 79/home/chinmay/repos/forkify/node_modules/core-js/modules/es.typed-array.find.js1739957219742725235 0
 67/home/chinmay/repos/forkify/node_modules/core-js/internals/a-set.js1739957218322724967 0
-51/home/chinmay/repos/forkify/dist/icons.dfd7a6db.svg1740114912907342056 0
+51/home/chinmay/repos/forkify/dist/icons.dfd7a6db.svg1740129562800374522 0
 76/home/chinmay/repos/forkify/node_modules/core-js/internals/array-for-each.js1739957218572725014 0
 80/home/chinmay/repos/forkify/node_modules/@parcel/watcher/src/wasm/WasmBackend.hh1739950451702744428 0
 76/home/chinmay/repos/forkify/node_modules/caniuse-lite/data/features/xhtml.js1739950451112744304 0
