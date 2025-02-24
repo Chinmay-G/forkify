@@ -127,6 +127,10 @@ const controlAddRecipe = async function (newRecipe) {
     console.error('💥', err);
     addRecipeView.renderError(err.message);
   }
+};
+
+const newFeature = function () {
+  console.log('Welcome to the application');
 }
 
 const init = function () {
