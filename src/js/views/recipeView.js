@@ -14,7 +14,6 @@ class RecipeView extends View {
 
   addHandlerUpdateServings(handler) {
     this._parentElement.addEventListener('click', function (e) {
-      e.preventDefault();
       const btn = e.target.closest('.btn--update-servings');
       if (!btn) return;
       const updateTo = +btn.dataset.updateTo;
