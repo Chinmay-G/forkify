@@ -2,14 +2,14 @@
 
 Recipe application with custom uploads.
 
-Live-Preview : [text](https://forkify-chinmay.netlify.app/)
+Live-Preview : [Forkify](https://forkify-chinmay.netlify.app/)
 
-Techs used:
+Technologies used:
 
 - HTML / CSS / SASS
 - JavaScript
 - npm
 
-  Build Tool:
+Build Tool:
 
 - Parcel@2.0.0-beta.1
