@@ -38,7 +38,7 @@ export default class View {
       // console.log(curEl, newEl.isEqualNode(curEl));
 
       // Updates chnges TXT
-      if (!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue.trim() !== '') {
+      if (!newEl.isEqualNode(curEl) && (newEl.firstChild ? newEl.firstChild.nodeValue.trim() : undefined) !== '') {
         // console.log('💥', newEl.firstChild.nodeValue.trim());
         curEl.textContent = newEl.textContent;
       }
